@@ -95,4 +95,8 @@ On user's machine who has been added to EKS, they can configure .kube/config fil
 $ aws eks list-clusters
 $ aws eks update-kubeconfig --name ${cluster_name}
 ```
+## Reference Documentation:
+https://medium.com/@marcincuber/amazon-eks-design-use-of-spot-instances-and-cluster-scaling-da7f3a72d061
+## Managed node_group module:
+https://github.com/umotif-public/terraform-aws-eks-node-group
 
